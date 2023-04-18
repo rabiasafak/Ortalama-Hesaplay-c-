@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="not giriniz"
+        android:layout_marginTop="100dp"
+        android:id="@+id/vize_edt"
+        android:textSize="30sp"
+        android:padding="15dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="not giriniz"
+        android:id="@+id/final_edt"
+        android:layout_marginTop="5dp"
+        android:textSize="30sp"
+        android:padding="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="sonuc:"
+        android:id="@+id/sonuc_txt"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="30sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="hesapla"
+        android:id="@+id/btn_hesapla"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"/>
+
+</LinearLayout>
